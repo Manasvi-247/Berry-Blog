@@ -31,7 +31,36 @@
 - 📱 **Fully Responsive** - Beautiful on desktop, tablet, and mobile devices
 
 ---
-<a name="features"></a>
+## 🖼️ Screenshots
+
+<div align="center">
+
+<table>
+  <tr>
+    <td align="center">
+      <b>Home Page</b><br>
+      <img src="client/src/images/home.jpeg" width="300"/>
+    </td>
+    <td align="center">
+      <b>Dashboard</b><br>
+      <img src="client/src/images/dashboard.jpeg" width="300"/>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <b>Sign Up / Login Page</b><br>
+      <img src="client/src/images/sign.jpeg" width="300"/>
+    </td>
+    <td align="center">
+      <b>Comment Section</b><br>
+      <img src="client/src/images/comments.jpeg" width="300"/>
+    </td>
+  </tr>
+</table>
+
+</div>
+---
+
 ## 🎯 Features
 
 ### For Readers
