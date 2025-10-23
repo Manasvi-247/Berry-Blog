@@ -25,10 +25,14 @@ app.use(cors({
 }));
 app.use(express.json());
 
+
 // MongoDB Connection
 mongoose.connect(process.env.MONGODB_URI)
   .then(() => console.log('✅ MongoDB Connected'))
-  .catch(err => console.error('❌ MongoDB Connection Error:', err));
+  .catch(err => {
+    console.error('❌ MongoDB Connection Error:', err);
+    process.exit(1); // Exit so Render knows deploy failed
+  });
 
 // Make io accessible in routes
 app.set('io', io);

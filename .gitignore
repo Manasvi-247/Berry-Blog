@@ -1,0 +1,62 @@
+# Server
+server/.env
+
+# Client
+client/.env
+# ========================
+# Node / NPM
+# ========================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# ========================
+# Environment Files
+# ========================
+.env
+.env.local
+.env.*.local
+.env.production
+.env.development
+
+# ========================
+# Build / Output Folders
+# ========================
+# Client
+client/dist/
+client/build/
+client/.vite/
+# Server
+server/dist/
+server/build/
+
+# ========================
+# Logs
+# ========================
+logs/
+*.log
+
+# ========================
+# OS Files
+# ========================
+.DS_Store
+Thumbs.db
+
+# ========================
+# IDE / Editor Files
+# ========================
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# ========================
+# Optional: coverage
+# ========================
+coverage/
+server/test_mongo.js
