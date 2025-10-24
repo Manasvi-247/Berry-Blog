@@ -60,3 +60,4 @@ Thumbs.db
 # ========================
 coverage/
 server/test_mongo.js
+/.env
