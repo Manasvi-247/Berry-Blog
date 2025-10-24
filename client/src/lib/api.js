@@ -1,8 +1,8 @@
 import axios from "axios";
 import { io } from "socket.io-client";
 
-const API_URL = "http://localhost:3001/api";
-const SOCKET_URL = "http://localhost:3001";
+const API_URL = import.meta.env.VITE_API_URL;
+const SOCKET_URL = import.meta.env.VITE_SOCKET_URL;
 
 // Axios instance
 const api = axios.create({
